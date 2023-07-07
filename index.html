@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 5 meses!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://freepngimg.com/save/103123-heart-eyes-emoji-free-hd-image/512x512" type="image/x-icon">
+</head>
+<body onload="cumprimento()">
+    <header>
+        <p id="titulo">Oiiie amor da minha vida</p>
+    </header>
+    <section id="cont">
+        <nav id="questao">
+            <div id="pergunta">
+                <p>Quanto é 10 + 10?</p>
+            </div>
+            <div id="resposta">
+                <input type="button" value="1010" id="btn-res" class="btn-res1" onclick="correta()">
+                <input type="button" value="29" id="btn-res" class="btn-res2" onclick="errada()">
+                <input type="button" value="10" id="btn-res" class="btn-res2" onclick="errada()">
+                <input type="button" value="20" id="btn-res" class="btn-res2" onclick="errada()">
+            </div>
+        </nav>
+        <nav id="popup">
+            <div id="video">
+                <video width="450px" src="./video.mp4" controls poster="/thumb.jpg"></video>
+                <button id="fechar" onclick="fechar()">X</button>
+            </div>
+        </nav>
+
+        <div id="burro">
+            <img  id="will" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8fLKQ8yErMqIHwYXnxDW-_dvI8s4X9_KMrJmi6w&s" alt="will smith meme falando burro">
+            <button id="fechar2" onclick="fechar2()">X</button>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
